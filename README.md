@@ -4,4 +4,4 @@ Este projeto abrange todo o processo de dados, desde a construção de um **Data
 
 Na fase de análise, serão implementadas **consultas SQL avançadas** (CTEs, janelas, pivôs) para gerar insights estratégicos. Além disso, os dados poderão ser integrados a ferramentas de visualização, como **Power BI ou Python**, permitindo uma análise mais aprofundada e facilitando a tomada de decisões baseada em dados.
 
-![Descrição da imagem aqui](imgs\databaseproject.jpg)
+![Descrição da imagem aqui](imgs/databaseproject.jpg)
