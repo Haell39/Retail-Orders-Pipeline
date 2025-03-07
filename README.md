@@ -1,7 +1,24 @@
-**SQL Warehouse & Analytics Project**
+# Retail Data Pipeline
 
-Este projeto abrange todo o processo de dados, desde a construção de um **Data Warehouse** até a análise avançada, utilizando **SQL Server**. A primeira etapa envolve a **extração, transformação e carregamento (ETL)** dos dados para um banco estruturado, aplicando **modelagem dimensional** com tabelas fato e dimensão para otimizar consultas analíticas.
+Este projeto implementa um pipeline de dados para análise de **retail orders**. Os dados são extraídos de fontes Kaggle, processados com Pandas, armazenados em um banco de dados SQL Server e analisados por meio de consultas SQL.
 
-Na fase de análise, serão implementadas **consultas SQL avançadas** (CTEs, janelas, pivôs) para gerar insights estratégicos. Além disso, os dados poderão ser integrados a ferramentas de visualização, como **Power BI ou Python**, permitindo uma análise mais aprofundada e facilitando a tomada de decisões baseada em dados.
+## Fluxo do Projeto
+1. **Extração de dados**: Dados de retail orders são extraídos de Kaggle.
+2. **Processamento**: O Pandas é usado para tratar e transformar os dados.
+3. **Armazenamento**: Os dados processados são inseridos em um banco de dados SQL Server.
+4. **Análise**: Consultas SQL são usadas para extrair insights dos dados.
 
-![Descrição da imagem aqui](imgs/databaseproject.jpg)
+## Tecnologias Utilizadas
+- Python
+- Pandas
+- SQL Server
+- Kaggle API
+
+## Como Rodar
+1. Clone este repositório.
+2. Instale as dependências:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Configure as credenciais da Kaggle API e o acesso ao banco de dados SQL Server.
+4. Execute o script principal para iniciar o pipeline.
